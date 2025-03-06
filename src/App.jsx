@@ -1,13 +1,19 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
 import './App.css'
-import HeaderComponent from './components/Header'
+import MainLayout from './components/MainLayout'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import ResturantLayout from './components/ResturantLayout'
 
 function App() {
+  
   return (
     <>
-    <HeaderComponent />
+    <Router>
+    <Routes>
+    <Route path="/" element={<MainLayout />} />
+    <Route path='/resturant/:id' element={<ResturantLayout/>} />
+    </Routes>
+    </Router>
+    
     </>
   )
 }
