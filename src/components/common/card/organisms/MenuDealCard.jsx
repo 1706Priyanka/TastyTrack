@@ -1,7 +1,6 @@
 import Rating from "../atoms/Rating";
 
 const MenuDealCard = (restaurant) => {
-  console.log(restaurant);
   return (
     <>
       <div className="flex">

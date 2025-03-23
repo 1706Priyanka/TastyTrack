@@ -32,11 +32,13 @@ export const mapMenuItemsList = (data) => {
                 return {
                   type: 'itemCategory',
                   itemCards: group.card.card.itemCards || [],
+                  title: group.card.card.title,
                 };
               case "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory":
                 return {
                   type: 'nestedItemCategory',
                   categories: group.card.card.categories || [],
+                  title: group.card.card.title,
                 };
               case "type.googleapis.com/swiggy.presentation.food.v2.MenuCarousel":
                 return {
