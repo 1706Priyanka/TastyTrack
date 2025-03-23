@@ -35,3 +35,45 @@
     display: -webkit-box;
     overflow-wrap: break-word;
 }
+
+.add-btn{
+    position: relative;
+    bottom: 14px;
+    left: 44px;
+    background: white;
+    padding: 4px;
+    width: 76px;
+    border-radius: 6px;
+    border: 0.5px solid lightgray;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.45px;
+    color: rgb(27, 166, 114);
+}
+
+.line{
+    border-bottom: .5px solid #d3d3d3;
+    height: .5px;
+    margin: 20px 0;
+}
+
+.resturantLayout{
+    margin: 0 20%;
+}
+
+.resturantLayoutContainer{
+    height: 655px;
+    overflow-y: scroll;
+}
+
+.licenseCard{
+    background-color: #f1f1f6;
+    padding: 4px 20px;
+}
+
+.licenseContent{
+    padding: 15px 0;
+    margin-bottom: 4px;
+    border-bottom: 1px solid gray
+}
